@@ -1,0 +1,106 @@
+/* Font */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Main container */
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1b1b1b;
+  overflow: hidden;
+  position: relative;
+  cursor: none;
+}
+
+/* Circle */
+.circle {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  transform-origin: 0% 0%;
+  border: 1.5px solid #5221e6;
+  border-radius: 100%;
+  transition: all 0.1s;
+}
+
+/* Color picker container */
+.color {
+  content: '';
+  position: absolute;
+  z-index: 30;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: calc(50vw - 50px);
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  width: 100px;
+  padding: 10px 0;
+  border-radius: 5px;
+  gap: 5px;
+}
+
+/* Label */
+.color__label {
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* Input */
+.color__input {
+  width: 80px;
+  height: 40px;
+  cursor: pointer !important;
+}
+
+/* Github link */
+.github {
+  position: absolute;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px;
+  transition: all 0.2s;
+  border-radius: 5px;
+  text-decoration: none;
+  gap: 10px;
+}
+
+/* Hover effect */
+.github:hover {
+  padding: 15px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Image */
+.github__image {
+  height: 30px;
+}
+
+/* Title */
+.github__title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1b1b1b;
+}
