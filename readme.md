@@ -1,6 +1,6 @@
 # Mouse Follow Animation
 
-![](https://salvadorvasqz.github.io/js-mouse-follow-animation/blob/main/static/demo.gif)
+![](https://github.com/salvadorvasqz/js-mouse-follow-animation/blob/main/static/demo.gif?raw=true)
 
 ## Demo
 
